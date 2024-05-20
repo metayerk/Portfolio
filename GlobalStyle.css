@@ -1,0 +1,55 @@
+*{
+    font-family: IBM Plex Mono, monospace;
+    background-color: #192029;
+    color: rgba(240, 248, 255, 0.616);
+}
+
+body{
+    margin: 0px;
+}
+
+hr {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+main{
+    display: flex;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    margin: 0px;
+    margin-top: 16px;
+    padding: 0px;
+}
+
+nav > ul{
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    list-style-type: none;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    gap: 25%;
+    font-size:x-large;
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.first{
+    text-transform: uppercase;
+    color: royalblue;
+}
+
+.right{
+    margin-left: 25px;
+}
+
+

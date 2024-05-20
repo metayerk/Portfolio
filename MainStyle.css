@@ -1,0 +1,17 @@
+.information{
+    display: flex;
+    flex-direction: column;
+}
+
+.information > ul{
+    display: flex;
+    flex-direction: column;
+    list-style:square;
+    
+}
+
+.test{
+    margin-top: 1000px;
+}
+
+
