@@ -5,7 +5,8 @@
 }
 
 body{
-    margin: 0px;
+    display: flex;
+    width: 95%;
 }
 
 hr {
@@ -15,28 +16,38 @@ hr {
 
 main{
     display: flex;
+    flex-direction: column;
 }
 
 nav{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 50px;
+    font-size:x-large;
+    align-items: center;
+    height: 100vh;
+    width: 100px;
     margin: 0px;
-    margin-top: 16px;
-    padding: 0px;
+    padding: 0px
 }
 
-nav > ul{
-    display: flex;
-    position: fixed;
-    flex-direction: row;
+nav > .inter > .on{
+    display: none;
     list-style-type: none;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    gap: 25%;
-    font-size:x-large;
     padding: 0px;
     margin: 0px;
+}
+
+nav > .inter > .off{
+    display:block;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav > .inter > ul > li {
+    margin-bottom: 1.25em;
+    margin-top: 1.25em;
 }
 
 a{
@@ -52,4 +63,55 @@ a{
     margin-left: 25px;
 }
 
+.extension{
+    color:gray;
+    height: 1em;
+    width: 85%;
+    
+}
 
+.extension:hover{
+    width: 100%;
+}
+
+.inter{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25;
+}
+
+
+@media  screen and (min-width : 1200px) {
+
+    .extension{
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width : 1200px) {
+
+nav {
+    font-size: large;
+}
+
+
+}
+
+@media screen and (max-width : 900px){
+
+    .extension{
+        display: none;
+    }
+
+    nav > .inter > .on {
+        display: block;
+    }
+
+    nav > .inter > .off {
+        display: none;
+    }
+
+}
