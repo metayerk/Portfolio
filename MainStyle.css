@@ -14,4 +14,13 @@
     margin-top: 1000px;
 }
 
+.skill{
+    display: flex;
+    flex-direction: row;
+}
+
+.skill > * {
+    flex: 0.3 0.4 ;
+}
+
 

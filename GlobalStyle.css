@@ -25,8 +25,9 @@ nav{
     justify-content: center;
     font-size:x-large;
     align-items: center;
+    z-index: 1;
     height: 100vh;
-    width: 100px;
+    width: 200px;
     margin: 0px;
     padding: 0px
 }
@@ -56,23 +57,24 @@ a{
 
 .firstLetter{
     text-transform: uppercase;
-    color: royalblue;
+    color: #4169e1;
 }
 
 .right{
     margin-left: 25px;
 }
 
-.extension{
-    color:gray;
-    height: 1em;
-    width: 85%;
-    
+.extension {
+    color: #4169e1;
+    height: 30px;
+    font-size: large;
+    border: none;
 }
 
-.extension:hover{
-    width: 100%;
+.extension:hover {
+    font-size: x-large;
 }
+
 
 .inter{
     display: flex;
@@ -91,20 +93,15 @@ a{
     
 }
 
-@media screen and (max-width : 1200px) {
+@media screen and (max-width : 1600px) {
 
-nav {
-    font-size: large;
-}
-
+    nav {
+        font-size: large;
+    }
 
 }
 
 @media screen and (max-width : 900px){
-
-    .extension{
-        display: none;
-    }
 
     nav > .inter > .on {
         display: block;
