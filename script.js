@@ -6,14 +6,13 @@ function motTyping(word, index, lenght){
         setTimeout(() => {
             name.innerHTML += word[index]
             motTyping(word, index + 1, lenght)
-        },350)
+        },250)
     }
 }
 
-setTimeout(() => {
     console.log(name)
-    motTyping(complet_name, 0, 10)
-})
+    motTyping(complet_name, 0, 14)
+
 
 const boutonNav = document.getElementById('onOff')
 const nav = document.getElementById('nav')
@@ -47,13 +46,10 @@ function reactNav(flag){
         navAgrandit.style.display = "block"
         boutonNav.innerHTML = "&#8656"
         boutonNav.style.fontSize = "xx-large"
-        if(innerWidth > 800){
-            nav.style.width = "1200px"}
-        else if(innerWidth < 8000){
-            nav.style.width = "2400px"
-        }
+        if(innerWidth < 800 ){
+            nav.style.width = "2000px"}
         else{
-            nav.style.width = "700px"
+            nav.style.width = "900px"
         }
     }
 
