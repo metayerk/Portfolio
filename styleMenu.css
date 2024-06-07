@@ -1,0 +1,72 @@
+.window * {
+    background-color: #2b343f;
+}
+
+.window{
+    display: none;
+    position: fixed;
+    background-color: #2b343f;
+    border-radius: 35px;
+    z-index: 1;
+    width: 34%;
+    height: 78%;
+    padding: 50px;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+
+.window > h1{
+    text-align: center;
+    color: rgba(240, 248, 255, 0.616);
+}
+
+.window > p{
+    text-align: left;
+    margin-left: 20px;
+    color: rgba(240, 248, 255, 0.616);
+}
+
+
+.window > hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color :#2b343f;
+    border-top: dotted #192029 4px;
+}
+
+.interface-sup{
+    display: none;
+    background-color: #0000009a;
+    justify-content: center;
+    align-items: center;
+    position: fixed; 
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.exit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: inset #4169e1 2px;
+    background-color: #192029;
+    color: #4169e1;
+    font-size: large;
+    position: relative;
+    bottom: 0px;
+    margin-bottom: 40px;
+    width: 20%;
+    height: 6%;
+}
+
+.exit:hover{
+    border: inset #607dd6 2px;;
+}
+
+.buttonMenu{
+    width: 25%;
+    height: 25%;
+}

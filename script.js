@@ -67,3 +67,35 @@ function reactNav(flag){
     }
 
 }
+
+const boutonOff = document.getElementById("exit");
+const interface = document.getElementById("interface");
+const body = document.getElementById("body");
+const navbar = document.getElementById("nav");
+let page;
+
+function activeWindow(id){
+
+    interface.style.display = "flex"
+    body.style.overflow = "hidden"
+    navbar.style.display = "none"
+    console.log(id)
+    activePage(id) 
+
+}
+
+function activePage (id){
+    page = document.getElementById(id)
+    page.style.display = "block"
+}
+
+function disableWindow (){
+    disabledPage();
+    interface.style.display = "none"
+    navbar.style.display = "flex"
+}
+
+function disabledPage (){
+    page.style.display = "none"
+    body.style.overflow = "auto"
+}
