@@ -1,36 +1,44 @@
 .right{
-    margin-left: 25px;
-    margin-right: 10%;
+    margin-left: 50px;
+    margin-right: 20%;
+}
+
+.skill * {
+    text-align:left;
 }
 
 .third{
-    width: 50%;
+    height: auto;
 }
 
 .third > .block_button {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
-.bottonMenu{
-    height: 100px;
-    width: 100px;
+.buttonMenu{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    background-size: contain;
 }
 
 .One{
-    background-image: url();
+    background-image: url(/image/SAE/gameoflife.png);
 }
 .Two{
-    background-image: url();
+    background-image: url(/image/SAE/depeche.png);
 }
 .Tree{
-    background-image: url();
+    background-image: url(/image/SAE/nutriscore.png);
+    background-size: contain;
 }
 .Four{
-    background-image: url();
+    background-image: url(/image/SAE/siteweb.png);
 }
 .Five{
-    background-image: url();
+    background-image: url(/image/SAE/server.png);
 }
 
 .information_P{
@@ -60,4 +68,11 @@
 
 .skill > * {
     flex: 0.3 0.4 ;
+}
+
+@media screen and (max-width : 900px){
+    .right{
+        margin-left: 25px;
+        margin-right: 10%;
+    }
 }
