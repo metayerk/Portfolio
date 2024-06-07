@@ -25,20 +25,20 @@
 }
 
 .One{
-    background-image: url(/image/SAE/gameoflife.png);
+    background-image: url(https://raw.githubusercontent.com/NokeOrgrim/Portfolio/main/image/SAE/gameoflife.png);
 }
 .Two{
-    background-image: url(/image/SAE/depeche.png);
+    background-image: url(https://raw.githubusercontent.com/NokeOrgrim/Portfolio/main/image/SAE/depeche.png);
 }
 .Tree{
-    background-image: url(/image/SAE/nutriscore.png);
+    background-image: url(https://raw.githubusercontent.com/NokeOrgrim/Portfolio/main/image/SAE/nutriscore.png);
     background-size: contain;
 }
 .Four{
-    background-image: url(/image/SAE/siteweb.png);
+    background-image: url(https://raw.githubusercontent.com/NokeOrgrim/Portfolio/main/image/SAE/siteweb.png);
 }
 .Five{
-    background-image: url(/image/SAE/server.png);
+    background-image: url(https://raw.githubusercontent.com/NokeOrgrim/Portfolio/main/image/SAE/server.png);
 }
 
 .information_P{
