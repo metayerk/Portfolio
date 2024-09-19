@@ -78,7 +78,6 @@ function activeWindow(id){
 
     interface.style.display = "flex"
     body.style.overflow = "hidden"
-    navbar.style.display = "none"
     console.log(id)
     activePage(id) 
 
