@@ -21,6 +21,7 @@ body.light_theme {
 }
 
 html{
+    overflow-x: hidden;
     text-align: justify;
 }
 /*  Bouton :
