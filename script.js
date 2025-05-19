@@ -124,7 +124,7 @@ function disableWindow(){
 function disabledPage (){
     id_select.style.border = "#FF7043 3px dashed";
     page.style.display = "none";
-    body.style.overflow = "auto";
+    body.style.overflowY = "auto";
     console.log(page);
 }
 
